@@ -18,6 +18,19 @@ printf("b is greatest of all");
 }
 else{
 printf("c is largest");
+}
+
+  if (a<b && a<c){
+    printf("a is smallest");
+  }
+  else if (b<a && b<c){
+    printf("b is smallest of all");
+  }
+  else {
+    printf("c is smallest of all");
+  }
+  
 return 0;
 }
 }
+
